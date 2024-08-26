@@ -1,0 +1,135 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+<head>
+    <link rel="stylesheet" href="{% static 'women/css/olympics.css'%}" type="text/css">
+</head>
+<div class="block2">
+        <section class="main">
+            <div class="learn">
+                <h2 class="learn_text">{{ article.title1 }}</h2>
+                <div class="learn2_table">
+                    <div class="two_block_learn">
+                        <div class="learn_yellow">
+                            <h3 class="learn_text learn_lower_text">{{ article.title2 }}</h3>
+                            <div class="learn_text2">{{ article.text1 }}</div>
+                            <div class="learn_text2">{{ article.text2 }}</div>
+                        </div>
+                        <div class="learn_yellow">
+                            <h3 class="learn_text learn_lower_text">{{ article.title3 }}</h3>
+                            <div class="learn_text2">{{ article.text3 }}</div>
+                            <div class="learn_text2">{{ article.text4 }}</div>
+                        </div>
+                    </div>
+                    <div class="two_block_learn img_foto">
+                        <div class="two_text_learn">
+                            <h3 class="lower_text_two_first">{{ article.title4 }}</h3>
+                            <div class="lower_text_two_second">{{ article.text5 }}</div>
+                            <div class="lower_text_two_second">{{ article.text6 }}</div>
+                            <div class="lower_foto" style="height: 100%;">
+                                <img class="lower_foto_learn" src="https://assets-foxford-ru.ngcdn.ru/assets/webpack/images/globe.442d6395.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hEFWQK">
+              <div class="gnFbui">
+                <h2 class="eekwQV">{{ article.title_blue }}</h2>
+                <div class="hdOtv">{{ article.title_blue_down }}</div>
+              </div>
+              <div class="kDlwcC">
+                <div class="iOqSlx">
+                  <div class="ceAUQQ">
+                    <div class="lhWrxQ">{{ article.title_white }}</div>
+                    <div class="kLuMiu">{{ article.title_white_down }}</div>
+                    <img class="NgqNk" src="https://assets-foxford-ru.ngcdn.ru/assets/webpack/images/arrow.7a0bdcb5.svg">
+                  </div>
+                  <div class="izguvn">
+                    <div class="fdKQMF">{{ article.title_blue_in }}</div>
+                    <div class="cJDXL">
+                      <div class="dpNUfv">
+                        <div class="jmpUNB">
+                          <div class="rpzPu">{{ article.title_blue_in_down1 }}</div>
+                          <div class="fVPiwk">{{ article.text_blue1 }}</div>
+                        </div>
+                        <div class="jmpUNB">
+                          <div class="rpzPu">{{ article.title_blue_in_down2 }}</div>
+                          <div class="fVPiwk">{{ article.text_blue2 }}</div>
+                        </div>
+                        <div class="jmpUNB">
+                          <div class="rpzPu">{{ article.title_blue_in_down3 }}</div>
+                          <div class="fVPiwk">{{ article.text_blue3 }}</div>
+                        </div>
+                        <div class="jmpUNB">
+                          <div class="fVPiwk">{{ article.text_blue4 }}</div>
+                        </div>
+                      </div>
+                      <div class="dpNUfv">
+                        <div class="jmpUNB">
+                          <div class="rpzPu">{{ article.title_blue_in_down4 }}</div>
+                          <div class="fVPiwk">{{ article.text_blue5 }}</div>
+                        </div>
+                        <div class="jmpUNB">
+                          <div class="rpzPu">{{ article.title_blue_in_down5 }}</div>
+                          <div class="fVPiwk">{{ article.text_blue6 }}</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="ftlwnw" style="height: 100%;">
+                      <img class="hBKIaZ" src="https://assets-foxford-ru.ngcdn.ru/assets/webpack/images/vseros.4185aace.png">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="blocks">
+                <h2 class="olympics_text">{{ article.title }}</h2>
+                <div class="color_block">
+                    <div class="green_block">
+                        <div class="text_in_block">
+                            <h3 class="top_title_block">{{ article.title5 }}</h3>
+                            <div class="lower_text_block">{{ article.content1 }}</div>
+                            <div class="lower_text_block">{{ article.content2 }}</div>
+                        </div>
+                        <div class="foto_and_button">
+                            <div class="foto1" style="height: 100%;">
+                                <img alt="Cat" class="cat" src="https://assets-foxford-ru.ngcdn.ru/assets/webpack/images/cat-in-laptop.7f2e65e9.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="black_block">
+                        <div class="text_in_block text_black">
+                            <h3 class="top_title_block">{{ article.title6 }}</h3>
+                            <div class="lower_text_block">{{ article.content3 }}</div>
+                            <div class="lower_text_block">{{ article.content4 }}</div>
+                        </div>
+                    </div>
+                    <div class="yellow_block ">
+                        <div class="text_in_block text_yellow">
+                            <h3 class="top_title_block">{{ article.title7 }}</h3>
+                            <div class="lower_text_block">{{ article.content5 }}</div>
+                            <div class="lower_text_block">{{ article.content6 }}</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blue_block">
+                    <div class="text_in_block lower_block">
+                        <h3 class="top_title_block">{{ article.title8 }}</h3>
+                        <div class="lower_text_block">{{ article.content7 }}</div>
+                        <div class="lower_text_block">{{ article.content8 }}</div>
+                    </div>
+                    <div class="foto_lower" style="height: 100%;">
+                        <img alt="Cat" class="cat" src="https://assets-foxford-ru.ngcdn.ru/assets/webpack/images/consultation.388e47a5.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+</div>
+
+{% endblock %}
+

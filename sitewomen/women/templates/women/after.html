@@ -1,0 +1,305 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+<head>
+  <link rel="stylesheet" href="{% static 'women/css/mycss2.css' %}" type="text/css">
+</head>
+<div class="block2">
+      <section class="main">
+        <div class="fl">
+          <div class="full">
+            <h1>{{ article.title1 }}</h1>
+          </div>
+          <div class="line"></div>
+          <div class="word">
+            <p>{{ article.title2 }}</p>
+          </div>
+        </div>
+        <div class="and">
+          <div class="ovals">
+              <ol class="ovalboy">
+                <li class="maov">
+                  <span class="oval">{{ article.title3 }}</span>
+                  <div class="ctr">
+                    <div class="most-upstairs">
+                      <div class="storona-uveka"></div>
+                    </div>
+                  </div>
+                </li>
+                <li class="maov">
+                  <span class="oval">{{ article.title4 }}</span>
+                </li>
+                <li class="maov">
+                  <span class="oval">{{ article.title5 }}</span>
+                </li>
+                <li class="maov">
+                  <span class="oval">{{ article.title6 }}</span>
+                </li>
+              </ol>
+          </div>
+          <div class="white">
+            <div class="mnhf">
+              <div class="hf">
+                <p>{{ article.content1 }}</p>
+              </div>
+            </div>
+            <div class="rectangle">
+              <div class="rt">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tx">
+          <p>{{ article.content2 }}</p>
+        </div>
+        <div class="spheres">
+            <ol class="halfboy">
+              <li class="maha">
+                <span class="half"></span>
+                <span class="sp">{{ article.content3 }}</span>
+              </li>
+              <li class="maha">
+                <span class="half"></span>
+                <span class="sp">{{ article.content4 }}</span>
+              </li>
+              <li class="maha">
+                <span class="half"></span>
+                <span class="sp">{{ article.content5 }}</span>
+              </li>
+              <li class="maha">
+                <span class="half"></span>
+                <span class="sp">{{ article.content6 }}</span>
+              </li>
+            </ol>
+        </div>
+        <div class="two">
+          <ol class="tw">
+            <li class="matw">
+              <span class="ovtw">{{ article.content7 }}</span>
+            </li>
+            <li class="matw">
+              <span class="ovtw">{{ article.content8 }}</span>
+            </li>
+          </ol>
+        </div>
+        <div class="latx">
+          <p>{{ article.content9 }}</p>
+        </div>
+        <div class="hEFWQK">
+          <div class="gnFbui">
+            <h2 class="eekwQV">{{ article.ad_title }}</h2>
+            <div class="hdOtv">
+              {{ article.ad_title_down }}
+            </div>
+          </div>
+          <div class="kDlwcC">
+            <div class="iOqSlx">
+              <div class="ceAUQQ">
+                <div class="lhWrxQ">{{ article.white_title }}</div>
+                <div class="kLuMiu">{{ article.white_ad_title }}</div>
+                <img class="NgqNk" src="https://assets-foxford-ru.ngcdn.ru/assets/webpack/images/arrow.7a0bdcb5.svg">
+              </div>
+              <div class="izguvn">
+                <div class="fdKQMF">{{ article.blue_title }}</div>
+                <div class="cJDXL">
+                  <div class="dpNUfv">
+                    <div class="jmpUNB">
+                      <div class="rpzPu">{{ article.title_blue1 }}</div>
+                      <div class="fVPiwk">
+                        {{ article.content_blue1 }}
+                      </div>
+                    </div>
+                    <div class="jmpUNB">
+                      <div class="rpzPu">{{ article.title_blue2 }}</div>
+                      <div class="fVPiwk">
+                        {{ article.content_blue2 }}
+                      </div>
+                    </div>
+                    <div class="jmpUNB">
+                      <div class="rpzPu">{{ article.title_blue3 }}</div>
+                      <div class="fVPiwk">
+                        {{ article.content_blue3 }}
+                      </div>
+                    </div>
+                    <div class="jmpUNB">
+                      <div class="fVPiwk">
+                        {{ article.content_blue4 }}
+                      </div>
+                    </div>
+                  </div>
+                  <div class="dpNUfv">
+                    <div class="jmpUNB">
+                      <div class="rpzPu">{{ article.title_blue4 }}</div>
+                      <div class="fVPiwk">
+                        {{ article.content_blue5 }}
+                      </div>
+                    </div>
+                    <div class="jmpUNB">
+                      <div class="rpzPu">{{ article.title_blue5 }}</div>
+                      <div class="fVPiwk">
+                        {{ article.content_blue6 }}
+                      </div>
+                    </div>
+                    <div class="jmpUNB">
+                      <div class="rpzPu">{{ article.title_blue6 }}</div>
+                      <div class="fVPiwk">
+                        {{ article.content_blue7 }}
+                      </div>
+                    </div>
+                    <div class="jmpUNB">
+                      <div class="fVPiwk">
+                        {{ article.content_blue8 }}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hEFWQK">
+          <div class="gnFbui">
+          </div>
+          <div class="kDlwcC">
+            <div class="iOqSlx lower1_up">
+              <div class="ceAUQQ lower1_down">
+                <div class="lhWrxQ">{{ article.green_title }}</div>
+                <div class="kLuMiu">{{ article.green_ad_title }}</div>
+                <img class="NgqNk" src="https://assets-foxford-ru.ngcdn.ru/assets/webpack/images/arrow.7a0bdcb5.svg">
+              </div>
+              <div class="izguvn">
+                <div class="fdKQMF">{{ article.title_green }}</div>
+                <div class="cJDXL">
+                  <div class="dpNUfv">
+                    <div class="jmpUNB">
+                      <div class="rpzPu">{{ article.title_green1 }}</div>
+                      <div class="fVPiwk">
+                        {{ article.content_green1 }}
+                      </div>
+                    </div>
+                    <div class="jmpUNB">
+                      <div class="rpzPu">{{ article.title_green2 }}</div>
+                      <div class="fVPiwk">
+                        {{ article.content_green2 }}
+                      </div>
+                    </div>
+                    <div class="jmpUNB">
+                      <div class="rpzPu">{{ article.title_green3 }}</div>
+                      <div class="fVPiwk">
+                        {{ article.content_green3 }}
+                      </div>
+                    </div>
+                    <div class="jmpUNB">
+                      <div class="fVPiwk">
+                        {{ article.content_green4 }}
+                      </div>
+                    </div>
+                  </div>
+                  <div class="dpNUfv">
+                    <div class="jmpUNB">
+                      <div class="rpzPu">{{ article.title_green4 }}</div>
+                      <div class="fVPiwk">
+                        {{ article.content_green5 }}
+                      </div>
+                    </div>
+                    <div class="jmpUNB">
+                      <div class="rpzPu">{{ article.title_green5 }}</div>
+                      <div class="fVPiwk">
+                        {{ article.content_green6 }}
+                      </div>
+                    </div>
+                    <div class="jmpUNB">
+                      <div class="rpzPu">{{ article.title_green6 }}</div>
+                      <div class="fVPiwk">
+                        {{ article.content_green7 }}
+                      </div>
+                    </div>
+                    <div class="jmpUNB">
+                      <div class="fVPiwk">
+                        {{ article.content_green8 }}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hEFWQK">
+          <div class="gnFbui">
+          </div>
+          <div class="kDlwcC">
+            <div class="iOqSlx lower2_up">
+              <div class="ceAUQQ lower2_down">
+                <div class="lhWrxQ">{{ article.yellow_title }}</div>
+                <div class="kLuMiu">{{ article.yellow_ad_title }}</div>
+                <img class="NgqNk" src="https://assets-foxford-ru.ngcdn.ru/assets/webpack/images/arrow.7a0bdcb5.svg">
+              </div>
+              <div class="izguvn">
+                <div class="fdKQMF">{{ article.title_yellow }}</div>
+                <div class="cJDXL">
+                  <div class="dpNUfv">
+                    <div class="jmpUNB">
+                      <div class="rpzPu">{{ article.title_yellow1 }}</div>
+                      <div class="fVPiwk">
+                        {{ article.content_yellow1 }}
+                      </div>
+                    </div>
+                    <div class="jmpUNB">
+                      <div class="rpzPu">{{ article.title_yellow2 }}</div>
+                      <div class="fVPiwk">
+                        {{ article.content_yellow2 }}
+                      </div>
+                    </div>
+                    <div class="jmpUNB">
+                      <div class="rpzPu">{{ article.title_yellow3 }}</div>
+                      <div class="fVPiwk">
+                        {{ article.content_yellow3 }}
+                      </div>
+                    </div>
+                    <div class="jmpUNB">
+                      <div class="fVPiwk">
+                        {{ article.content_yellow4 }}
+                      </div>
+                    </div>
+                  </div>
+                  <div class="dpNUfv">
+                    <div class="jmpUNB">
+                      <div class="rpzPu">{{ article.title_yellow4 }}</div>
+                      <div class="fVPiwk">
+                        {{ article.content_yellow5 }}
+                      </div>
+                    </div>
+                    <div class="jmpUNB">
+                      <div class="rpzPu">{{ article.title_yellow5 }}</div>
+                      <div class="fVPiwk">
+                        {{ article.content_yellow6 }}
+                      </div>
+                    </div>
+                    <div class="jmpUNB">
+                      <div class="rpzPu">{{ article.title_yellow6 }}</div>
+                      <div class="fVPiwk">
+                        {{ article.content_yellow7 }}
+                      </div>
+                    </div>
+                    <div class="jmpUNB">
+                      <div class="fVPiwk">
+                        {{ article.content_yellow8 }}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </div>
+{% endblock %}
+
+
+
+

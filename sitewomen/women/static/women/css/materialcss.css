@@ -1,0 +1,324 @@
+body {
+    font-family:"Inter", sans-serif;
+    background: #888888;
+    height: 100%;
+}
+.main {
+    flex: 1 1 auto;
+}
+.header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+    display: flex;
+}
+.bg-dark{
+    display: block;
+    border-radius: 70px;
+}
+
+
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-link {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(77, 77, 77);
+}
+.navbar-brand {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    margin: 0 5px;
+}
+
+/* Иконки ТГ и ВК */
+.social-icons {
+    display: flex;
+    width: 100px;
+    padding-top: 13px;
+}
+.social-icons a {
+    margin: 0 5px;
+}
+.social-icons img {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.3s;
+}
+.social-icons a:hover img {
+    transform: scale(1.2);
+}
+
+.block2 {
+    display: flex;
+    border-radius: 70px;
+    background-color: #f6f7fb;
+    width: 96%;
+    height: 100%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+.main {
+    display: block;
+    flex: 1 1 auto;
+}
+
+/* Текст + круг */
+.and {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-count: 2;
+    column-gap: 100px;
+}
+.text{
+    text-align: center;
+    font-size: 32px;
+    color:#181818;
+    width: 640px;
+}
+.circle {
+    background-color: #b40404;
+    width: 250px;
+    height: 250px;
+    border-radius: 250px;
+}
+
+/* Taблица(ОГЭ и ЕГЭ) */
+.white{
+    color: #000;
+}
+.table1 {
+    padding-top: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    max-width: 1280px;
+    min-width: 280px;
+
+}
+.table_lower{
+    display: flex;
+    padding: 56px 40px;
+    flex-direction: column;
+    align-items: center;
+    background: #303030;
+    border-radius: 30px;
+}
+.text2 {
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 114%;
+    letter-spacing: -.19px;
+    text-align: center;
+    color: #fff;
+}
+.bookmark {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.txe {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 16px;
+    background-color: #171717;
+}
+.block_header{
+    cursor: pointer;
+    padding: 30px 35px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+}
+.mouth{
+    margin-top: 6px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 132%;
+    color: #fff;
+}
+.list{
+   display: flex;
+   padding: 0 35px 30px;
+   margin: -5px;
+   flex-direction: column;
+   gap: 10px;
+}
+.item{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    display: flex;
+    gap: 10px;
+    color: #fff;
+}
+.number{
+    opacity: .3;
+    flex: none;
+}
+.text2_lower{
+    margin-top: 56px;
+}
+
+
+/* Нижняя часть */
+footer,
+.btn {
+    width: 1900px;
+    background: #000;
+    bottom: 0;
+}
+.down {
+    display: flex;
+    padding: 100px 100px;
+}
+
+/* Текст слева */
+.text-down {
+    display: block;
+    padding-left: 300px;
+    width: 529px;
+}
+.dot {
+    font-family: var(--font-family);
+    font-weight: 150;
+    font-size: 40px;
+    color: #fff;
+}
+.dw {
+    font-family: var(--font-family);
+    width: 300px;
+    font-size: 14px;
+    color: #fff;
+}
+
+/* Почта и так далее справа */
+.block {
+    box-sizing: content-box;
+    display: block;
+    width: 650px;
+    
+    padding-left: 180px;
+}
+.block-2 {
+    display: flex;
+}
+.form-control{
+    border-radius: 17px;
+    height: 50px;
+    
+}
+.form-label {
+    color:white
+}
+.mb-0 {
+    width: 380px;
+}
+.mb-1 {
+    padding-left: 40px;
+    width: 380px;
+    box-sizing: content-box;
+}
+
+/* Кнопка Send */
+.button {
+    /* Сбрасываем дефолтные стили */
+    border: none;
+    outline: none;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    /* Можно также использовать любые встроенные и кастомные шрифты, например, отсюда  */
+    font-family: Roboto, Verdana, Tahoma, sans;
+    /* Тут можно поэкспериментировать */
+    padding: 10px 40px;
+    border-radius: 100px;
+    color: #fff;
+  }
+  .button i {
+    margin-right: 4px;
+  }
+  .button {
+    margin-left: 6px;
+  }
+  .button.blue {
+    background: #b40404;
+  }
+  .button:hover {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  .button:hover.blue {
+    background: #BA3030;
+  }
+  .button:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  .button:active.blue {
+    background: #5e200c;
+  }
+
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes call {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(-6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(-2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(1.2deg);
+	}
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}

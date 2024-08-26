@@ -1,0 +1,580 @@
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+
+
+body {
+    font-family:"Inter", sans-serif;
+    background: #888888;
+    height: 100%;
+}
+.main {
+    flex: 1 1 auto;
+}
+.header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+    display: flex;
+
+}
+.bg-dark{
+    display: block;
+    border-radius: 70px;
+}
+
+
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-link {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(77, 77, 77);
+}
+.navbar-brand {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    margin: 0 5px;
+}
+
+/* Иконки ТГ и ВК */
+.social-icons {
+    display: flex;
+    width: 100px;
+    padding-top: 13px;
+}
+.social-icons a {
+    margin: 0 5px;
+}
+.social-icons img {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.3s;
+}
+.social-icons a:hover img {
+    transform: scale(1.2);
+}
+
+.block2 {
+    display: flex;
+    border-radius: 70px;
+    background-color: #f6f7fb;
+    width: 96%;
+    height: 100%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+.main {
+    display: block;
+    flex: 1 1 auto;
+}
+
+/* ФИО + ЛИНИЯ + ТЕКСТ */
+.fl{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(1);
+    grid-gap: 10px;
+    padding-top: 95px;
+}
+.full{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 36px;
+    color: #181818;
+}
+.line {
+    width: 620px;
+    height: 2px;
+    border: 6px, solid #181818;
+    background-color: #181818;
+}
+.word{
+    color: #181818;
+    font-size: 25px;
+    text-align: center;
+}
+
+.and {
+    display: block;
+}
+/* 4 овала */
+.ovals{
+    display: flex;
+    column-count: 1;
+    justify-content: center;
+    align-items: center;
+}
+.ovalboy {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-gap: 40px ;
+    padding-top: 60px;
+
+}
+.maov {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 32px 1fr;
+}
+.oval{
+    align-items: center;
+    border-radius: 30px;
+    color: #181818;
+    display: flex;
+    height: 54px;
+    justify-content: center;
+    padding: 7px;
+    width: 184px;
+    border: 2px solid #181818;
+    font-size: 20px;
+}
+
+/* Стрелка */
+.ctr {
+    display: flex;
+    padding-top: 30px;
+}
+.most-upstairs {
+    display: flex;
+    height: 70px;
+    margin: 18px 0;
+    right: 150px;
+}
+.storona-uveka {
+    width: 0;
+    height: 60px;
+    border: 1px solid #181818;
+    position: relative;
+    animation: scroll 1.7s infinite;
+    margin: auto;
+}
+.storona-uveka::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: -5px;
+    width: 2px;
+    height: 10px;
+    border-top: 10px solid #181818;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+}
+
+/* Элипс */
+.white{
+    padding-left: 320px;
+    padding-bottom: 100px;
+}
+.rectangle{
+    border-radius: 150px;
+    width: 1136px;
+    height: 150px;
+    background-color: #a5a4a4;
+
+}
+.rt{
+    text-align: center;
+    line-height: 170px;
+    font-size: 30px;
+}
+.mnhf {
+    display: flex;
+    padding-left: 326px;
+
+}
+.hf {
+    text-align: center;
+    display: block;
+    background-color: #555555;
+    border-radius: 80px 80px 0 0;
+    width: 484px;
+    height: 63px;
+    font-size: 32px;
+    color: #fff;
+    padding-top: 8px;
+
+
+}
+
+/* Текст */
+.tx {
+    font-size: 48px;
+    color: #181818;
+    padding-top: 50px;
+    padding-left: 350px;
+}
+
+/* Сфера */
+.spheres{
+    display: flex;
+    column-count: 2;
+    column-gap: 120px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 80px;
+    padding-top: 35px;
+}
+.halfboy {
+    display: grid;
+    grid-template-columns: repeat(2, 600px);
+    grid-gap: 40px ;
+}
+.maha {
+    display: grid;
+    grid-gap: 80px;
+    grid-template-columns: 40px 1fr;
+}
+.half{
+    align-items: center;
+    border-radius: 100px;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    padding: 7px;
+    width: 100px;
+    border: 12px dashed #181818;
+}
+.sp {
+    color: #181818;
+    font-size: 24px;
+}
+
+/* Две штуки */
+.two{
+    display: flex;
+    column-count: 1;
+    column-gap: 0;
+    justify-content: center;
+    align-items: center;
+}
+.tw {
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-gap: 40px ;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+.matw {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 32px 1fr;
+}
+.ovtw{
+    align-items: center;
+    border-radius: 30px;
+    color: #ffffff;
+    background-color: #181818;
+    display: flex;
+    height: 54px;
+    justify-content: center;
+    padding: 7px;
+    width: 184px;
+    border: 2px solid #181818;
+    font-size: 20px;
+}
+
+/* Достижения */
+.latx{
+    text-align: center;
+    font-size: 64px;
+    color: #181818;
+    padding-right: 950px;
+}
+
+/* Таблица */
+.hEFWQK{
+    display: block;
+    width: 100%;
+    max-width: 1280px;
+    text-align: inherit;
+    margin: 0px auto;
+    box-sizing: border-box;
+    padding: 0px 36px;
+}
+.gnFbui{
+    display: flex;
+    flex-flow: column;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: contain;
+}
+.eekwQV{
+    margin-bottom: 16px;
+    margin: 0px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.15;
+    font-size: 44px;
+    color: rgb(51, 51, 51);
+}
+.hdOtv {
+    margin-bottom: 36px;
+    max-width: 610px;
+    font-size: 20px;
+    margin: 0px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    color: rgb(51, 51, 51);
+}
+.kDlwcC {
+    margin-bottom: -20px;
+}
+.iOqSlx{
+    background-color: rgb(198, 230, 255);
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.ceAUQQ{
+    position: relative;
+    padding: 32px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(198, 230, 255);
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: rgb(198, 230, 255) 0px 6px 0px 0px;
+}
+.lhWrxQ{
+    font-size: 24px;
+    margin: 0px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    color: rgb(51, 51, 51);
+}
+.kLuMiu {
+    font-size: 18px;
+    margin: 0px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    color: rgb(51, 51, 51);
+}
+.NgqNk{
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    width: 24px;
+    height: 24px;
+    transform: translateY(-50%) rotate(180deg);
+    border: 0;
+    max-width: 100%;
+}
+.izguvn{
+    padding: 32px 32px 40px;
+    position: relative;
+}
+.fdKQMF{
+    margin-bottom: 28px;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    color: rgb(51, 51, 51);
+}
+.cJDXL{
+    display: flex;
+}
+.dpNUfv{
+    margin-right: 32px;
+    width: calc(50% - 16px);
+}
+.jmpUNB{
+    position: relative;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+.rpzPu{
+    font-size: 18px;
+    margin: 0px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.3;
+    color: rgb(51, 51, 51);
+}
+.fVPiwk{
+    font-size: 18px;
+    margin: 0px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    color: rgb(51, 51, 51);
+}
+.hBKIaZ{
+    height: 392px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border: 0;
+    max-width: 100%;
+}
+.lower1_up{
+    background-color: rgb(218, 239, 201);
+}
+.lower1_down{
+    background-color: #ffffff;
+    box-shadow:rgb(218, 239, 201) 0px 6px 0px 0px;
+    border: 2px solid rgb(218, 239, 201);
+}
+.lower2_up{
+    background-color: rgb(255, 232, 158);
+}
+.lower2_down{
+    background-color: #ffffff;
+    box-shadow:rgb(255, 232, 158) 0px 6px 0px 0px;
+    border: 2px solid rgb(255, 232, 158);
+}
+
+
+/* Нижняя часть */
+footer,
+.btn {
+    width: 1900px;
+    background: #000;
+    bottom: 0;
+}
+.down {
+    display: flex;
+    padding: 100px 100px;
+}
+
+/* Текст слева */
+.text-down {
+    display: block;
+    padding-left: 300px;
+    width: 529px;
+}
+.dot {
+    font-family: var(--font-family);
+    font-weight: 150;
+    font-size: 40px;
+    color: #fff;
+}
+.dw {
+    font-family: var(--font-family);
+    width: 300px;
+    font-size: 14px;
+    color: #fff;
+}
+
+/* Почта и так далее справа */
+.block {
+    box-sizing: content-box;
+    display: block;
+    width: 650px;
+    padding-left: 180px;
+}
+.block-2 {
+    display: flex;
+}
+.form-control{
+    border-radius: 17px;
+    height: 50px;
+    
+}
+.form-label {
+    color:white
+}
+.mb-0 {
+    width: 380px;
+}
+.mb-1 {
+    padding-left: 40px;
+    width: 380px;
+    box-sizing: content-box;
+}
+
+/* Кнопка Send */
+.button {
+    /* Сбрасываем дефолтные стили */
+    border: none;
+    outline: none;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    /* Можно также использовать любые встроенные и кастомные шрифты, например, отсюда  */
+    font-family: Roboto, Verdana, Tahoma, sans;
+    /* Тут можно поэкспериментировать */
+    padding: 10px 40px;
+    border-radius: 100px;
+    color: #fff;
+  }
+  .button i {
+    margin-right: 4px;
+  }
+  .button {
+    margin-left: 6px;
+  }
+  .button.blue {
+    background: #b40404;
+  }
+  .button:hover {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  .button:hover.blue {
+    background: #BA3030;
+  }
+  .button:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  .button:active.blue {
+    background: #5e200c;
+  }
+
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes call {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(-6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(-2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(1.2deg);
+	}
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}

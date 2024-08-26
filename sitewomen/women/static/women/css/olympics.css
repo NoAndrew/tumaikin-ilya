@@ -1,0 +1,604 @@
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+/* Главный фон */
+body {
+    font-family:"Inter", sans-serif;
+    background: #888888;
+    height: auto;
+    margin: 0;
+    min-height: 100%;
+    padding: 0;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+.header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    
+
+}
+
+
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-link {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(77, 77, 77);
+}
+.navbar-brand {
+    display: flex;
+    width: 32px;
+    height: 32px;
+    margin: 0 5px;
+}
+/* Иконки ТГ и ВК */
+.social-icons {
+    display: flex;
+    width: 100px;
+    padding-top: 13px;
+} 
+.social-icons a {
+    margin: 0 5px;
+}
+.social-icons img {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.3s;
+} 
+.social-icons a:hover img {
+    transform: scale(1.2);
+}
+
+/* Задний фон */
+.block2 {
+    display: block;
+    border-radius: 70px;
+    background-color: #f6f7fb;
+    width: 96%;
+    height: 100%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    
+}
+.main {
+    display: block;
+    width: 100%;
+    max-width: 1280px;
+    text-align: inherit;
+    margin: 0px auto;
+    box-sizing: border-box;
+    padding: 0px 36px;
+}
+.blocks{
+    position: relative;
+    margin-bottom: 140px;
+}
+.olympics_text{
+    margin-bottom: 32px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.15;
+    font-size: 44px;
+    color: rgb(51, 51, 51);
+    padding-top: 40px;
+}
+.color_block {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -20px;
+}
+.text_in_block{
+    position: relative;
+    max-width: 600px;
+    z-index: 1;
+}
+.top_title_block{
+    margin: 0px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.15;
+    font-size: 36px;
+    color: rgb(51, 51, 51);
+}
+.lower_text_block{
+    margin-top: 20px;
+}
+.foto_and_button{
+    margin-top: 60px;
+    
+}
+.foto1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+.cat{
+    position: absolute;
+    right: -16px;
+    bottom: 30px;
+    width: 545px;
+    border: 0;
+    max-width: 100%;
+}
+.knopka{
+    width: 300px;
+
+}
+.name_knopka{
+    margin: 0px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1;
+    font-size: inherit;
+    color: inherit;
+}
+
+.green_block {
+    display: flex;
+    flex-flow: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    height: 659px;
+    position: relative;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 48px;
+    border-radius: 10px;
+    background-color: rgb(218, 239, 201);
+
+}
+.black_block {
+    display: flex;
+    flex-flow: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    height: 731px;
+    position: relative;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 48px;
+    border-radius: 10px;
+    background-color: rgb(74, 74, 74);
+    color: rgb(255, 255, 255);
+    width: calc(50% - 20px);
+ 
+}
+.text_black{
+    position: relative;
+    max-width: 450px;
+    z-index: 1;
+}
+.yellow_block {
+    display: flex;
+    flex-flow: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    height: 731px;
+    position: relative;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 48px;
+    border-radius: 10px;
+    background-color: rgb(255, 232, 158);
+    width: calc(50% - 20px);
+}
+.text_yellow{
+    position: relative;
+    max-width: 450px;
+    z-index: 1;
+}
+.blue_block {
+    display: block;
+    position: relative;
+    margin-right: unset;
+    margin-bottom: 20px;
+    padding: 48px;
+    background-color: rgb(198, 230, 255, 0.7);
+    border-radius: 10px;
+}
+.lower_block {
+    max-width: 450px;
+}
+.foto_lower{
+    position: absolute;
+    top: 20px;
+    right: 53px;
+    width: 526px;
+}
+.learn{
+    margin-bottom: 70px;
+    display: block;
+    width: 100%;
+    max-width: 1280px;
+    text-align: inherit;
+    padding: 20px 36px;
+}
+.learn_text{
+    font-size: 44px;
+    margin: 0px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.15;
+    margin-bottom: 32px;
+    margin-top: 40px;
+}
+.learn2_table{
+    display: flex;
+}
+.two_block_learn{
+    margin-right: 20px;
+    margin-bottom: -20px;
+    
+}
+.img_foto {
+    display: flex;
+    flex-flow: column;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+}
+.learn_yellow{
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(255, 232, 158);
+    margin-bottom: 20px;
+    padding: 48px;
+}
+.learn_lower_text{
+    font-size: 36px;
+}
+.learn_text2{
+    margin-top: 20px;
+    max-width: 456px;
+    font-size: 24px;
+    margin: 0px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    color: rgb(51, 51, 51);
+}
+.two_text_learn{
+    position: relative;
+    align-self: flex-end;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(198, 230, 255);
+    margin-bottom: 20px;
+    padding: 48px;
+}
+.lower_text_two_first{
+    position: relative;
+    z-index: 1;
+    font-size: 36px;
+    margin: 0;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.15;
+    color: rgb(51, 51, 51);
+}
+.lower_text_two_second{
+    position: relative;
+    z-index: 1;
+    margin-top: 20px;
+    max-width: 456px;
+    font-size: 24px;
+    margin: 0;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.5;
+    color: rgb(51, 51, 51);
+}
+.lower_foto{
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+.lower_foto_learn{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    width: 96%;
+    max-width: 527px;
+}
+.hEFWQK{
+    display: block;
+    width: 100%;
+    max-width: 1280px;
+    text-align: inherit;
+    margin: 0px auto;
+    box-sizing: border-box;
+    padding: 0px 36px;
+}
+.gnFbui{
+    display: flex;
+    flex-flow: column;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: contain;
+}
+.eekwQV{
+    margin-bottom: 16px;
+    margin: 0px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.15;
+    font-size: 44px;
+    color: rgb(51, 51, 51);
+}
+.hdOtv {
+    margin-bottom: 36px;
+    max-width: 610px;
+    font-size: 20px;
+    margin: 0px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    color: rgb(51, 51, 51);
+}
+.kDlwcC {
+    margin-bottom: -20px;
+}
+.iOqSlx{
+    background-color: rgb(198, 230, 255);
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.ceAUQQ{
+    position: relative;
+    padding: 32px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(198, 230, 255);
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: rgb(198, 230, 255) 0px 6px 0px 0px;
+}
+.lhWrxQ{
+    font-size: 24px;
+    margin: 0px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    color: rgb(51, 51, 51);
+}
+.kLuMiu {
+    font-size: 18px;
+    margin: 0px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    color: rgb(51, 51, 51);
+}
+.NgqNk{
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    width: 24px;
+    height: 24px;
+    transform: translateY(-50%) rotate(180deg);
+    border: 0;
+    max-width: 100%;
+}
+.izguvn{
+    padding: 32px 32px 40px;
+    position: relative;
+}
+.fdKQMF{
+    margin-bottom: 28px;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    color: rgb(51, 51, 51);
+}
+.cJDXL{
+    display: flex;
+}
+.dpNUfv{
+    margin-right: 32px;
+    width: calc(50% - 16px);
+}
+.jmpUNB{
+    position: relative;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+.rpzPu{
+    font-size: 18px;
+    margin: 0px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.3;
+    color: rgb(51, 51, 51);
+}
+.fVPiwk{
+    font-size: 18px;
+    margin: 0px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    color: rgb(51, 51, 51);
+}
+.hBKIaZ{
+    height: 392px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border: 0;
+    max-width: 100%;
+}
+
+
+/* Нижняя часть */
+footer,
+.btn {
+    width: 1900px;
+    background: #000;
+    bottom: 0;
+}
+.down {
+    display: flex;
+    padding: 100px 100px;
+}
+
+/* Текст слева */
+.text-down {
+    display: block;
+    padding-left: 300px;
+    width: 529px;
+}
+.dot {
+    font-family: var(--font-family);
+    font-weight: 150;
+    font-size: 40px;
+    color: #fff;
+}
+.dw {
+    font-family: var(--font-family);
+    width: 300px;
+    font-size: 14px;
+    color: #fff;
+}
+
+/* Почта и так далее справа */
+.block {
+    box-sizing: content-box;
+    display: block;
+    width: 650px;
+    
+    padding-left: 180px;
+}
+.block-2 {
+    display: flex;
+}
+.form-control{
+    border-radius: 17px;
+    height: 50px;
+    
+}
+.form-label {
+    color:white
+}
+.mb-0 {
+    width: 380px;
+}
+.mb-1 {
+    padding-left: 40px;
+    width: 380px;
+    box-sizing: content-box;
+}
+
+/* Кнопка Send */
+.button {
+    /* Сбрасываем дефолтные стили */
+    border: none;
+    outline: none;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    /* Можно также использовать любые встроенные и кастомные шрифты, например, отсюда  */
+    font-family: Roboto, Verdana, Tahoma, sans;
+    /* Тут можно поэкспериментировать */
+    padding: 10px 40px;
+    border-radius: 100px;
+    color: #fff;
+  }
+  .button i {
+    margin-right: 4px;
+  }
+  .button {
+    margin-left: 6px;
+  }
+  .button.blue {
+    background: #b40404;
+  }
+  .button:hover {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  .button:hover.blue {
+    background: #BA3030;
+  }
+  .button:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  .button:active.blue {
+    background: #5e200c;
+  }
+
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes call {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(-6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(-2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(1.2deg);
+	}
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+@keyframes scroll {
+    0% {
+    height: 40px;
+    }
+    30% {
+    height: 70px;
+    }
+    60% {
+    height: 40px;
+    }
+}

@@ -1,0 +1,142 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+<head>
+  <link rel="stylesheet" href="{% static 'women/css/vid1.css'%}" type="text/css">
+  <link rel="stylesheet" href="{% static 'women/css/gallery.css'%}" type="text/css">
+</head>
+<div class="block2">
+        <section class="main">
+          <div class="and">
+            <div class="text">
+              <h1 class="zav">{{ article.title1 }}</h1>
+              <p>{{ article.text1 }}</p>
+              <p>{{ article.text2 }} </p>
+              <p>{{ article.text3 }}</p>
+            </div>
+            <div class="paint">
+              <img src="{% static 'women/images/black.jpg'%}" alt="">
+            </div>
+          </div>
+          <div class="ctr">
+            <div class="most-upstairs">
+              <div class="storona-uveka"></div>
+            </div>
+          </div>
+          <div class="white">
+            <div class="rectangle">
+              <div class="rt">
+                <p>{{ article.title2 }}</p>
+              </div>
+            </div>
+          </div>
+          <div class="three">
+              <div class="card">
+                <div class="top"></div>
+                <div class="bottom1">
+                  <div class="content">
+                    <h1>{{ article.card1 }}</h1>
+                    <p>{{ article.text_card1 }}</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="top"></div>
+                <div class="bottom1">
+                  <div class="content">
+                    <h1>{{ article.card2 }}</h1>
+                    <p>{{ article.text_card2 }}</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="top"></div>
+                <div class="bottom1">
+                  <div class="content">
+                    <h1>{{ article.card3 }}</h1>
+                    <p>{{ article.text_card3 }}</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="tx">
+            <ol class="quotes">
+              <li class="quote">
+                <span class="small-circle">1</span>
+                <span class="sp">{{ article.content1 }}</span>
+              </li>
+              <li class="quote">
+                <span class="small-circle">2</span>
+                <span class="sp">{{ article.content2 }}</span>
+              </li>
+              <li class="quote">
+                <span class="small-circle">3</span>
+                <span class="sp">{{ article.content3 }}</span>
+              </li>
+              <li class="quote">
+                <span class="small-circle">4</span>
+                <span class="sp">{{ article.content4 }}</span>
+              </li>
+            </ol>
+            <div class="circle"></div>
+          </div>
+          <div class="and2">
+            <div class="text2">
+              <h1 class="zav2">{{ article.content5 }}</h1>
+              <p>{{ article.content6 }}</p>
+              <p>{{ article.content7 }}</p>
+              <p>{{ article.content8 }}</p>
+            </div>
+            <div class="paints">
+              <div class="paint2">
+                <p>Фотография</p>
+              </div>
+              <div class="paint22">
+                <p>Фотография</p>
+              </div>
+            </div>
+          </div>
+          <div class="and3">
+            <div class="paints3">
+              <div class="paint3">
+                <p>Фотография</p>
+              </div>
+              <div class="paint33">
+                <p>Фотография</p>
+              </div>
+            </div>
+            <div class="text3">
+              <h1 class="zav3">{{ article.content9 }}</h1>
+              <p>{{ article.content10 }}</p>
+              <p>{{ article.content11 }}</p>
+              <p>{{ article.content12 }}</p>
+            </div>
+          </div>
+          <div class="gw">
+            <div class="gallery">
+              <div class="cssSlider">
+                <ul class="slides">
+                  <li id="slide1"><img src="https://images.unsplash.com/photo-1483653364400-eedcfb9f1f88?auto=format&fit=crop&w=840&q=60" alt="" /></li>
+                  <li id="slide2"><img src="https://images.unsplash.com/photo-1433256392503-913cee5877e3?auto=format&fit=crop&w=840&q=60" alt="" /></li>
+                  <li id="slide3"><img src="https://images.unsplash.com/photo-1483653085484-eb63c9f02547?auto=format&fit=crop&w=840&q=60" alt="" /></li>
+                  <li id="slide4"><img src="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?auto=format&fit=crop&w=840&q=60" alt="" /></li>
+                  <li id="slide5"><img src="https://images.unsplash.com/photo-1453284441168-8780c9f52097?auto=format&fit=crop&w=840&q=60" alt="" /></li>
+                </ul>
+                <ul class="thumbnails">
+                  <li><a href="#slide1"><img src="https://images.unsplash.com/photo-1483653364400-eedcfb9f1f88?auto=format&fit=crop&w=840&q=60" /></a></li>
+                  <li><a href="#slide2"><img src="https://images.unsplash.com/photo-1433256392503-913cee5877e3?auto=format&fit=crop&w=840&q=60" /></a></li>
+                  <li><a href="#slide3"><img src="https://images.unsplash.com/photo-1483653085484-eb63c9f02547?auto=format&fit=crop&w=840&q=60" /></a></li>
+                  <li><a href="#slide4"><img src="https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?auto=format&fit=crop&w=840&q=60" /></a></li>
+                  <li><a href="#slide5"><img src="https://images.unsplash.com/photo-1453284441168-8780c9f52097?auto=format&fit=crop&w=840&q=60" /></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="wk">
+              <p>{{ article.content13 }}</p>
+            </div>
+          </div>
+        </section>
+      </div>
+{% endblock %}

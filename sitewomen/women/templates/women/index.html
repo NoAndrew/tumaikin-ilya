@@ -1,0 +1,24 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{%static 'women/css/mycss1.css'%}">
+    <title>{{ article.name_pages }}</title>
+</head>
+<body>
+    <h2>{{ article.content1 }}</h2>
+    <h2>{{ article.content2 }}</h2>
+    <h1>{{ article.content3 }}</h1>
+    <div class="chooser">
+        <input id="r1" type="radio" value="1" name="trailside" onclick="window.location.href='after.html'"/>
+        <label for="r1">{{ article.title1 }}</label>
+        <input id="r2" type="radio" value="-1" name="trailside" onclick="window.location.href='mn.html'"/>
+        <label for="r2">{{ article.title2 }}</label>
+        <input id="r3" type="radio" value="0" name="trailside" onclick="window.location.href='material.html'"/>
+        <label for="r3" >{{ article.title3 }}</label>
+    </div>
+</body>
+</html>
